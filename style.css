@@ -152,7 +152,7 @@ body {
 
 }
 
-.dets:hover {
+/* .dets:hover {
     height: 200px;
     border-radius: 20px;
     display: flex;
@@ -161,7 +161,7 @@ body {
     transition: 0.5s;
     transform: translateX(-100%);
 
-}
+} */
 
 
 #page3 {
@@ -194,6 +194,29 @@ body {
 
 /* --------------responsive---------------- */
 @media (max-width:600px) {
+    /* -----------nav responsive---------------------- */
+    #nav{
+        padding: 10px;
+    }
+    #left-nav{
+    
+        height: 63px; 
+        top: 0px;
+    }
+    #left-nav svg{
+        top: 0px;
+    }
+    #left-nav #twogood{
+        height: 63px;
+    }
+    #left-nav #twogoodlogo{
+        height: 57px;
+    }
+   
+
+    #links {
+        display: none;
+    }
 
     /* ----------------page1 responsive------------------ */
 
@@ -247,28 +270,7 @@ body {
        height: 90%;
     
     }
-    #nav{
-        padding: 10px;
-    }
-    #left-nav{
-    
-        height: 63px; 
-        top: 0px;
-    }
-    #left-nav svg{
-        top: 0px;
-    }
-    #left-nav #twogood{
-        height: 63px;
-    }
-    #left-nav #twogoodlogo{
-        height: 57px;
-    }
    
-
-    #links {
-        display: none;
-    }
     
    
    
